@@ -112,8 +112,6 @@ public class PostgresDialect extends AbstractDialect {
         //  PrimitiveArrayTypeInfo.BYTE_PRIMITIVE_ARRAY_TYPE_INFO in
         // LegacyTypeInfoDataTypeConverter.
 
-
-
         return EnumSet.of(
                 LogicalTypeRoot.CHAR,
                 LogicalTypeRoot.VARCHAR,
