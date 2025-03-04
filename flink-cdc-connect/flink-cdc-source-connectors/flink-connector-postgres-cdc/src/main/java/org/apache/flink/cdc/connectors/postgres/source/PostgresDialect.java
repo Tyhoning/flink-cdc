@@ -93,6 +93,7 @@ public class PostgresDialect extends AbstractDialect {
         return identifier;
     }
 
+
     @Override
     public Optional<Range> decimalPrecisionRange() {
         return Optional.of(Range.of(MIN_DECIMAL_PRECISION, MAX_DECIMAL_PRECISION));
