@@ -88,7 +88,6 @@ public class PostgresDialect extends AbstractDialect {
                         + conflictAction);
     }
 
-
     @Override
     public String quoteIdentifier(String identifier) {
         return identifier;
